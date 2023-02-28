@@ -9,7 +9,6 @@ int numberM = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите число N:");
 int numberN = int.Parse(Console.ReadLine());
 
-///Метод нахождения суммы натуральных элементов в промежутке от M до N
 void SumNumberBetween (int numberM, int numberN, int sum)
 {
     if (numberM > numberN) 
